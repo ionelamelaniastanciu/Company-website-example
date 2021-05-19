@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/centering.css">
+
+    <script>
+        function submit_message(){
+            window.location.href = "/index.php";
+            window.alert("Thank you for your message");
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <div class="feedback_form">
+        <form action='/index.php' method="get">
+            <label for="first_name"><b>First name:</b></label><br>
+            <input type="text" id="first_name" name="first_name"><br><br>
+            <label for="last_name"><b>Last name:</b></label><br>
+            <input type="text" id="last_name" name="last_name"><br><br>
+            <label for="feedback"><b>Send us your feedback</b></label><br>
+
+            <textarea id="feedback" name="feedback" rows="10" cols="50" style="resize: none;"></textarea> <br><br>
+            <input type="submit" value="Send" onclick="submit_message()" name="feedback_form_submit">
+
+        </form>
+    </div>
+</body>
+
+</html>
