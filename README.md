@@ -11,12 +11,12 @@
 - loads the menu's items into the body content of the index.php page
 
 #### MySql
-In MySql should create the tables with the next scripts:
-create database company_website;
-use company_website;
-create table feedbacks(first_name varchar(255), last_name varchar(255), message varchar(255));
-create table cvs(first_name varchar(255), last_time varchar(255), link_cv varchar(255));
-select * from cvs;
+- creates the tables with the next scripts:
+1. create database company_website;
+2. use company_website;
+3. create table feedbacks(first_name varchar(255), last_name varchar(255), message varchar(255));
+4. create table cvs(first_name varchar(255), last_time varchar(255), link_cv varchar(255));
+5. select * from cvs;
 
 For testing this application, you must>
 1. create a host with a utilitary as Wamp and put the files on the www directory and create a virtual host named as you wish
