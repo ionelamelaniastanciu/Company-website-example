@@ -1,0 +1,6 @@
+.sender_cv, .feedback_form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
