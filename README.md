@@ -16,9 +16,12 @@
 2. use company_website;
 3. create table feedbacks(first_name varchar(255), last_name varchar(255), message varchar(255));
 4. create table cvs(first_name varchar(255), last_time varchar(255), link_cv varchar(255));
-5. select * from cvs;
 
-For testing this application, you must>
+For testing this application, you must:
 1. create a host with a utilitary as Wamp and put the files on the www directory and create a virtual host named as you wish
 2. run the script from above on MySql console or create directly the database with the tables in phpMyAdmin console from Wamp
 3. enter into the virtual host created in Wamp
+4. check the forms if the data was inserted into the tables with the scripts:
+- select * from cvs;
+- select * from feedbacks;
+
